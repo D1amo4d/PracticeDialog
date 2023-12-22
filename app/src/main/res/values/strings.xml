@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PracticeDialog</string>
+    <string name="android_app">Android App</string>
+    <string name="ok">OK</string>
+    <string name="no">NO</string>
+    <string name="dialog">DIALOG1</string>
+    <string name="dialog2">DIALOG2</string>
+</resources>
