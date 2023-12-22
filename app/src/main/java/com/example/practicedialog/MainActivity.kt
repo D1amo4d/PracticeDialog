@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showCustomDialogBox2(mssage2: String?) {
         //Нужно докончить второй диоалоговое окно но уже сделать
-        // в другом виде кода 
+        // в другом виде кода !
     }
 
     private fun showCustomDialogBox1(message: String?) {
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         dialog.setCancelable(false)
         dialog.setContentView(R.layout.diaolog_desing)
         dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-
+        
         val btnOk = findViewById<Button>(R.id.btn_ok)
         val btnNo = findViewById<Button>(R.id.btn_no)
         val textV = findViewById<TextView>(R.id.text_view)
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnNo.setOnClickListener {
-
+    
         }
         dialog.show()
     }
